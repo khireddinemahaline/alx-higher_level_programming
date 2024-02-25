@@ -3,7 +3,7 @@
 def print_num():
     for i in range(0, 100, 1):
         if i < 98:
-            print("{02},".format(i), end=" ")
+            print("{:02},".format(i), end=" ")
         else:
             print("{}\n".format(i))
 print_num();
