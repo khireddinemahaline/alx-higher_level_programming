@@ -7,7 +7,7 @@ def comb_num():
         for j in range(1, 10, 1):
             if (j > i):
                 print("{}{},".format(i, j), end = " ")
-            elif (i >= 9):
+            elif (j >i and i >= 9):
                 print("{}{}".format(i, j))
 
  
