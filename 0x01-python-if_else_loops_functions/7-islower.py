@@ -3,7 +3,7 @@
 
 
 def islower(c):
-    if (c in range(ord('a')-1, ord('z')+1)):
+    if (c in range(ord(c) >= 97 , ord(c) <= 122)):
         return True
     else:
         return False
