@@ -3,7 +3,7 @@
 
 
 def islower(c):
-    if (c in range(ord('a'), ord('z')+1)):
+    if (c in range(ord('a')-1, ord('z')+1)):
         return True
     else:
         return False
