@@ -5,5 +5,5 @@ def print_num():
         if i < 98:
             print("{:02},".format(i), end=" ")
         else:
-            print("{}\n".format(i))
+            print("{}".format(i))
 print_num();
