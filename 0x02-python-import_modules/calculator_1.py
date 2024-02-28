@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-class calculator:
-    def add(a, b):
-        return (a + b)
-    def substruct(a, b):
-        return (a - b)
-    def multiply(a, b):
-        return (a * b)
-    def devide(a, b):
-        return (a / b)
+
+def add(a, b):
+    return (a + b)
+def sub(a, b):
+    return (a - b)
+def mul(a, b):
+    return (a * b)
+def div(a, b):
+    return (a / b)
