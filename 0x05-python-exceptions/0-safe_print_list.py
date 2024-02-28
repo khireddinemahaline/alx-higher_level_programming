@@ -16,6 +16,7 @@ def safe_print_list(my_list=[], x=0):
     try:
             print({}.format(my_list[i), end='')
             retutned_ele += 1
-        return retutned_ele
+    print("")
+    return retutned_ele
     except: 
         print("Error found")
