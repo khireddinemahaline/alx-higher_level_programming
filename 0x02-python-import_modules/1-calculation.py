@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-from calculator_1 import add, substruct, multiply, devide
-a = 10
-b = 5
-print("{} + {} = {}".format(a, b, add(10,5)))
-print("{} - {} = {}".format(a, b, substruct(10,5)))
-print("{} * {} = {}".format(a, b, multiply(10,5)))
-print("{} / {} = {}".format(a, b, devide(10,5)))
+""" caclulator function """
+
+
+if __name__ == "__main__"
+    from calculator_1 import add, substruct, multiply, devide
+    a = 10
+    b = 5
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, substruct(a, b)))
+    print("{} * {} = {}".format(a, b, multiply(a, b)))
+    print("{} / {} = {}".format(a, b, devide(a, b)))
