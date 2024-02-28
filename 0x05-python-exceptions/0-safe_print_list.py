@@ -11,9 +11,11 @@ def safe_print_list(my_list=[], x=0):
         number of elemnts printed
     
     """
+    retutned_ele = 0
+    for i in range(x):
     try:
-        for i in my_list[:x]:
-            print(i, end='')
-        return x
-    except IndexError: 
-        break
+            print({}.format(my_list[i), end='')
+            retutned_ele += 1
+        return retutned_ele
+    except: 
+        print("Error found")
