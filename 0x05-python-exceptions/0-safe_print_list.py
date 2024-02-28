@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """Write a function that prints x elements of a list."""
 
+
 def safe_print_list(my_list=[], x=0):
     try:
-        for i in my_list:
+        for i in my_list[:x]:
             print(i, end='')
-    except:
+        return x
+    except: 
         print("Error found")
