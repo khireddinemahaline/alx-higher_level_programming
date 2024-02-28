@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""write print division function"""
 
 def safe_print_division(a, b):
     try:
