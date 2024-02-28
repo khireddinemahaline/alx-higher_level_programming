@@ -2,7 +2,7 @@
 """ caclulator function """
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     from calculator_1 import add, substruct, multiply, devide
     a = 10
     b = 5
