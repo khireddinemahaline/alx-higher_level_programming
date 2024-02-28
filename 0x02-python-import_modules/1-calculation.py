@@ -3,10 +3,10 @@
 
 
 if __name__ == "__main__":
-    from calculator_1 import add, substruct, multiply, devide
+    from calculator_1 import calculator
     a = 10
     b = 5
-    print("{} + {} = {}".format(a, b, add(a, b)))
-    print("{} - {} = {}".format(a, b, substruct(a, b)))
-    print("{} * {} = {}".format(a, b, multiply(a, b)))
-    print("{} / {} = {}".format(a, b, devide(a, b)))
+    print("{} + {} = {}".format(a, b, calculator.add(a, b)))
+    print("{} - {} = {}".format(a, b, calculator.substruct(a, b)))
+    print("{} * {} = {}".format(a, b, calculator.multiply(a, b)))
+    print("{} / {} = {}".format(a, b, calculator.devide(a, b)))
