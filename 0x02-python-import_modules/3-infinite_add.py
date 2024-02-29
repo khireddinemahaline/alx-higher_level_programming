@@ -7,5 +7,5 @@ if __name__ == "__main__":
     result = 0
     n = len(sys.argv) - 1
     for i in range(n):
-        result += int(sys.argv[i + 1])
+        result =+ int(sys.argv[i + 1])
     print(result)
