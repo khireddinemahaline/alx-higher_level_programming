@@ -13,12 +13,12 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py {} {} {}".format(a, ope, b))
         sys.exit(1)
     else:
+        if ope == "*":
+            print("{} {} {} = {}".format(a, ope, b, mul(a, b)))
         if ope == "+":
             print("{} {} {} = {}".format(a, ope, b, add(a, b)))
         if ope == "-":
             print("{} {} {} = {}".format(a, ope, b, sub(a, b)))
-        if ope == "*":
-            print("{} {} {} = {}".format(a, ope, b, mul(a, b)))
         if ope == "/":
             print("{} {} {} = {}".format(a, ope, b, div(a, b)))
         sys.exit(1)
