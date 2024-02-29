@@ -6,9 +6,9 @@ if __name__ == "__main__":
     import sys
     n = len(sys.argv)
     count = n - 1
-    if n == 0:
+    if count == 0:
         print("{} arguments.".format(n))
-    elif n == 1:
+    elif count == 1:
         print("{} argument:".format(x))
     else:
         print("{} arguments:".format(n))
