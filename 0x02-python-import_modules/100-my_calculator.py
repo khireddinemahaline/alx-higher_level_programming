@@ -9,7 +9,6 @@ if __name__ == "__main__":
     a = int(sys.argv[1])
     b = int(sys.argv[3])
     ope = sys.argv[2]
-    print(type(b))
     if n != 3:
         print("Usage: ./100-my_calculator.py {} {} {}".format(a, ope, b))
         sys.exit(1)
