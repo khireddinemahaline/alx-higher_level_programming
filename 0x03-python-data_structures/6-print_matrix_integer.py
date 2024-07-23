@@ -5,7 +5,7 @@ prints a matrix of integers.
 
 
 def print_matrix_integer(matrix=[[]]):
-    for row in range(len(matrix)):
-        for ele in range(len(matrix[row])):
-            print("{:d}".format(matrix[row][ele]), end=' ')
+    for row in matrix:
+        for ele in row:
+            print("{:d}".format(ele), end=' ' if ele != row[-1] else "")
         print()
